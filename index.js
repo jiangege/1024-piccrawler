@@ -69,7 +69,7 @@ function downloadImages(imagelists, cb, index) {
       return cb.call(casper)
     }
     index++
-    casper.echo('Downloaded (' + (index + 1) + ')'  + title, 'INFO')
+    casper.echo('Downloaded (' + index + ')'  + title, 'INFO')
     downloadImages(imagelists, cb, index)
   }
   betterDownload({
