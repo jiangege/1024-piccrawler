@@ -1,0 +1,17 @@
+{
+  "name": "t66y-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "casperjs index.js --web-security=no failure"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "casperjs": "^1.1.4",
+    "casperjs-better-download": "^1.0.2",
+    "lodash": "^4.17.4",
+    "phantom": "^4.0.11"
+  }
+}
